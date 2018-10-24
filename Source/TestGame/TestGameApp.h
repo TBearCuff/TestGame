@@ -9,6 +9,8 @@ public:
     TestGameApp(int argc, char* argv[]);
 
 //    virtual bool VLoadGame() {return true;}
+protected:
+    virtual BaseGameLogic *VCreateGameAndView();
 };
 
 #endif // TESTGAMEAPP_H
