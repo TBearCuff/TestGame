@@ -33,11 +33,13 @@ LIBS += -L$$PWD/../../../GameEngine/Lib -lGameEngine
 #PRECOMPILED_HEADER = ../testubggamestd.h
 
 HEADERS += \
-    TestGameApp.h
+    TestGameApp.h \
+    TestGameLogic.h
 
 SOURCES += \
     TestGameApp.cpp \
-    TestGame.cpp
+    TestGame.cpp \
+    TestGameLogic.cpp
 
 RESOURCES += \
     resources.qrc
