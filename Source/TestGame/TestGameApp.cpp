@@ -6,6 +6,11 @@ TestGameApp::TestGameApp(int argc, char *argv[]) : GameEngineApp(argc, argv)
 
 }
 
+QString TestGameApp::VGetGameAppDirectory()
+{
+    return QString("/1.0/");
+}
+
 BaseGameLogic *TestGameApp::VCreateGameAndView()
 {
     m_pGame = new TestGameLogic();
