@@ -1,7 +1,7 @@
 #ifndef TESTGAMEAPP_H
 #define TESTGAMEAPP_H
 
-#include "../../../GameEngine/Source/GameEngine/GameEngineApp.h"
+#include "TestGameStd.h"
 
 class TestGameApp : public GameEngineApp
 {

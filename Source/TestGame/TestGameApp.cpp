@@ -1,5 +1,6 @@
 #include "TestGameApp.h"
 #include "TestGameLogic.h"
+#include "../../GameEngine/Source/Actor/TransformComponent.h"
 
 TestGameApp::TestGameApp(int argc, char *argv[]) : GameEngineApp(argc, argv)
 {
