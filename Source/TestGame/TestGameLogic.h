@@ -1,6 +1,7 @@
 #ifndef TESTGAMELOGIC_H
 #define TESTGAMELOGIC_H
 
+#include "TestGameStd.h"
 #include "../../../GameEngine/Source/GameEngine/BaseGameLogic.h"
 
 class TestGameLogic : public BaseGameLogic
