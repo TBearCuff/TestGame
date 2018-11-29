@@ -30,11 +30,12 @@ LIBS += -L$$PWD/../../../GameEngine/Lib/LinuxRelease -lz
 }
 
 
-PRECOMPILED_HEADER = ../testgamestd.h
+PRECOMPILED_HEADER = TestGameStd.h
 
 HEADERS += \
     TestGameApp.h \
-    TestGameLogic.h
+    TestGameLogic.h \
+    TestGameStd.h
 
 SOURCES += \
     TestGameApp.cpp \
