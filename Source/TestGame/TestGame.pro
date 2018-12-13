@@ -35,12 +35,14 @@ PRECOMPILED_HEADER = TestGameStd.h
 HEADERS += \
     TestGameApp.h \
     TestGameLogic.h \
-    TestGameStd.h
+    TestGameStd.h \
+    TestHumanView.h
 
 SOURCES += \
     TestGameApp.cpp \
     TestGame.cpp \
-    TestGameLogic.cpp
+    TestGameLogic.cpp \
+    TestHumanView.cpp
 
 RESOURCES += \
     resources.qrc
