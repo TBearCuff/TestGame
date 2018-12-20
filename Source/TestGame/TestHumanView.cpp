@@ -3,7 +3,7 @@
 
 #include "TestHumanView.h"
 
-TestHumanView::TestHumanView() : HumanView(QSharedPointer<IRenderer>() )
+TestHumanView::TestHumanView(QSharedPointer<IRenderer> renderer) : HumanView(renderer )
 {
 
 }

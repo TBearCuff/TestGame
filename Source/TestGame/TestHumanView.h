@@ -6,7 +6,7 @@
 class TestHumanView : public HumanView
 {
 public:
-    TestHumanView();
+    TestHumanView(QSharedPointer<IRenderer> renderer);
     virtual ~TestHumanView();
     virtual void VOnUpdate(unsigned long deltaMS);
 //    virtual bool VOnMsgProc(AppMsg msg){return true;}

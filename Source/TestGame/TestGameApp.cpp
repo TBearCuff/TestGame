@@ -19,8 +19,8 @@ BaseGameLogic *TestGameApp::VCreateGameAndView()
     //initialize the game logic
     m_pGame->Init();
 
-    QSharedPointer<IGameView> testView(GCC_NEW TestHumanView());
-//    m_pGame->VAddView(testView);
+    QSharedPointer<IGameView> testView(GCC_NEW TestHumanView(g_pApp->m_Renderer));
+    m_pGame->VAddView(testView);
 
     return m_pGame;
 }
