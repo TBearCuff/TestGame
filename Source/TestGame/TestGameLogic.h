@@ -9,7 +9,7 @@ class TestGameLogic : public BaseGameLogic
 public:
     TestGameLogic();
 
-    virtual bool VLoadGame(const char *levelResource){return true;}
+    virtual bool VLoadGame(const char *){return true;}
     virtual void VSetProxy(){}
 };
 
