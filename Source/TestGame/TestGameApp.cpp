@@ -1,3 +1,4 @@
+#include "TestGameStd.h"
 #include "TestGameApp.h"
 #include "TestGameLogic.h"
 #include "../../GameEngine/Source/Actor/TransformComponent.h"
