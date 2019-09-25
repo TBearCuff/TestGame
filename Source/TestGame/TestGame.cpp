@@ -1,5 +1,7 @@
 #include "TestGameStd.h"
 
+#include "../../GameEngine/Source/GameEngine/GameEngineApp.h"
+
 #include "TestGameApp.h"
 
 int main(int argc, char *argv[])
