@@ -1,6 +1,8 @@
+#include "TestGameStd.h"
 #include "TestGameApp.h"
 #include "TestGameLogic.h"
 #include "../../GameEngine/Source/Actor/TransformComponent.h"
+#include "TestHumanView.h"
 
 TestGameApp::TestGameApp(int argc, char *argv[]) : GameEngineApp(argc, argv)
 {
@@ -18,8 +20,8 @@ BaseGameLogic *TestGameApp::VCreateGameAndView()
     //initialize the game logic
     m_pGame->Init();
 
-//    shared_ptr<IGameView> menuView(GCC_NEW MainMenuView());
-//	m_pGame->VAddView(menuView);
+    QSharedPointer<IGameView> testView(GCC_NEW TestHumanView(g_pApp->m_Renderer));
+    m_pGame->VAddView(testView);
 
     return m_pGame;
 }
